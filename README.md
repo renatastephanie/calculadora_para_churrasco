@@ -22,3 +22,8 @@ As quantidades são calculadas com base nas seguintes médias de consumo:
 - **HTML** para estruturação do layout.
 - **CSS** para estilização.
 - **JavaScript** para cálculos e interação com o usuário.
+
+## Este projeto
+
+- Para visualizar o projeto clique aqui: https://renatastephanie.github.io/Calculadora_para_Churrasco/
+

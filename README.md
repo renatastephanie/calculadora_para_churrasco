@@ -25,5 +25,5 @@ As quantidades são calculadas com base nas seguintes médias de consumo:
 
 ## Este projeto
 
-- Para visualizar o projeto clique aqui: https://renatastephanie.github.io/Calculadora_para_Churrasco/
+- Para visualizar o projeto [Clique aqui](https://calculadora-para-churrasco.vercel.app/)
 

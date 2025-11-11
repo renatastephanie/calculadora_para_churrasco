@@ -9,25 +9,29 @@
 </head>
 
 <body>
-    <div class="calculator">
-        <h2>Calculadora de Churrasco</h2>
-        <div class="inputs">
-            <label for="homens">Quantidade de Homens:</label>
-            <input type="number" id="homens" min="0" value="0">
+    <main>
+        <section class="calculator">
+            <h1>Calculadora de Churrasco</h1>
+            <form>
+                <div class="inputs">
+                    <label for="homens">Homens</label>
+                    <input type="number" id="homens" min="0" value="0">
 
-            <label for="mulheres">Quantidade de Mulheres:</label>
-            <input type="number" id="mulheres" min="0" value="0">
+                    <label for="mulheres">Mulheres</label>
+                    <input type="number" id="mulheres" min="0" value="0">
 
-            <label for="criancas">Quantidade de Crianças:</label>
-            <input type="number" id="criancas" min="0" value="0">
-        </div>
+                    <label for="criancas">Crianças</label>
+                    <input type="number" id="criancas" min="0" value="0">
+                </div>
 
-        <button onclick="calcularChurrasco()">Calcular</button>
+                <button type="button" onclick="calcularChurrasco()">Calcular</button>
+            </form>
 
-        <div class="resultados" id="resultados">
-            <!-- Aqui serão exibidos os resultados do cálculo -->
-        </div>
-    </div>
+            <article id="resultados" class="resultados">
+                <!-- Aqui serão exibidos os resultados do cálculo -->
+            </article>
+        </section>
+    </main>
 
     <script src="index.js"></script>
 </body>
